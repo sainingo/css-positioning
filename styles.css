@@ -1,0 +1,28 @@
+
+.services {
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    background-color: #eee;
+    width: 29.333%;
+}
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.p-desc {
+  column-count: 3;
+  column-rule: 2px solid #e2e2;
+}
+.img-desc {
+    position: relative;
+}
+.img-desc h2 {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    margin: 18%;
+    color: #fff;
+}
